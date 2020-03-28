@@ -1,0 +1,131 @@
+img {
+  width: 30px;
+  height: 30px;
+}
+
+.nav__user {
+  border-radius: 50%;
+}
+
+/*Navigation Bar*/
+.header {
+  padding: 20px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__item .nav__menu {
+  padding: 0 2px;
+  color: black;
+}
+
+.nav__item--right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__item--right .nav__menu--right {
+  padding: 0 10px;
+}
+
+.nav__item--right .nav__link--right {
+  color: black;
+}
+
+/*Center*/
+.main__logo img {
+  margin: 150px 0 0;
+  width: 400px;
+  height: 140px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main__input {
+  padding: 20px;
+}
+
+.main__input input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 664px;
+  height: 35px;
+}
+
+.btn {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 70px;
+}
+
+.btn button {
+  margin: 11px 4px;
+  margin-left: 50px;
+  background-color: #f2f2f2;
+  color: #5F6368;
+  height: 36px;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border-radius: 4px;
+  border: 1px solid #f2f2f2;
+  font-family: arial,sans-serif;
+}
+
+/*Footer*/
+.footer {
+  margin-top: 240px;
+}
+
+.nav--item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav--menu {
+  color: #5F6368;
+  padding: 0 10px;
+}
+
+/*Right*/
+.item--right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 900px;
+}
+
+.menu--right {
+  padding: 0 10px;
+  color: #5F6368;
+}
+/*# sourceMappingURL=style.css.map */
